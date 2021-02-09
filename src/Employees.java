@@ -4,5 +4,5 @@ public class Employees {
     private Date dob;
     private int ID;
     private Date date_hired;
-    enum gender{male,female}
+    enum gender{male,fe}
 }
