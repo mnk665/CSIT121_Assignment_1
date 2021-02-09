@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1164a74b-0650-4884-bce6-afb9a3cc6f6e" name="Default Changelist" comment="Saving to GitHub">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1164a74b-0650-4884-bce6-afb9a3cc6f6e" name="Default Changelist" comment="Saving to GitHub" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +43,7 @@
       <workItem from="1612809347641" duration="329000" />
       <workItem from="1612864633205" duration="65000" />
       <workItem from="1612865430736" duration="15000" />
-      <workItem from="1612865475381" duration="1119000" />
+      <workItem from="1612865475381" duration="1421000" />
     </task>
     <task id="LOCAL-00001" summary="Saving to GitHub">
       <created>1612866088416</created>
@@ -54,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612866088417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Saving to GitHub">
+      <created>1612866834600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612866834603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
