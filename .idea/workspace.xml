@@ -43,7 +43,7 @@
       <workItem from="1612809347641" duration="329000" />
       <workItem from="1612864633205" duration="65000" />
       <workItem from="1612865430736" duration="15000" />
-      <workItem from="1612865475381" duration="1421000" />
+      <workItem from="1612865475381" duration="1743000" />
     </task>
     <task id="LOCAL-00001" summary="Saving to GitHub">
       <created>1612866088416</created>
@@ -59,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612866834603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Saving to GitHub">
+      <created>1612866919521</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612866919521</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Saving to GitHub">
+      <created>1612867037099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612867037099</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,19 +84,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
