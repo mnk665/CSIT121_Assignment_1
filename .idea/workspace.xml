@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1164a74b-0650-4884-bce6-afb9a3cc6f6e" name="Default Changelist" comment="Saving to GitHub" />
+    <list default="true" id="1164a74b-0650-4884-bce6-afb9a3cc6f6e" name="Default Changelist" comment="Saving to GitHub">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Developers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Managers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oCl3a1LA6vOgOXqCTaDUnh9L1D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +58,9 @@
       <workItem from="1612809347641" duration="329000" />
       <workItem from="1612864633205" duration="65000" />
       <workItem from="1612865430736" duration="15000" />
-      <workItem from="1612865475381" duration="1743000" />
+      <workItem from="1612865475381" duration="2055000" />
+      <workItem from="1612879765342" duration="4506000" />
+      <workItem from="1612937898777" duration="11224000" />
     </task>
     <task id="LOCAL-00001" summary="Saving to GitHub">
       <created>1612866088416</created>
@@ -73,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612867037099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Saving to GitHub">
+      <created>1612867416220</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612867416220</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,7 +108,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
