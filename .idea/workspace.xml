@@ -60,7 +60,7 @@
       <workItem from="1612865430736" duration="15000" />
       <workItem from="1612865475381" duration="2055000" />
       <workItem from="1612879765342" duration="4506000" />
-      <workItem from="1612937898777" duration="11224000" />
+      <workItem from="1612937898777" duration="11661000" />
     </task>
     <task id="LOCAL-00001" summary="Saving to GitHub">
       <created>1612866088416</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612867416220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Saving to GitHub">
+      <created>1612978635382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612978635382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
