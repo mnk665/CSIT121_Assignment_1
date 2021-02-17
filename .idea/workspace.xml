@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1164a74b-0650-4884-bce6-afb9a3cc6f6e" name="Default Changelist" comment="Saving to GitHub">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment1_MAIN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustomerSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustomerSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -40,6 +50,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="Assignment1_MAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment1_MAIN" />
+      <module name="CSIT121 Assignment 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Assignment1_MAIN" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +93,19 @@
       <workItem from="1612937898777" duration="12512000" />
       <workItem from="1612982981461" duration="679000" />
       <workItem from="1612984276693" duration="63000" />
-      <workItem from="1612985086080" duration="298000" />
+      <workItem from="1612985086080" duration="5106000" />
+      <workItem from="1613018092650" duration="18000" />
+      <workItem from="1613202681001" duration="6230000" />
+      <workItem from="1613230095309" duration="2374000" />
+      <workItem from="1613232909607" duration="1663000" />
+      <workItem from="1613236901102" duration="4920000" />
+      <workItem from="1613277560188" duration="47000" />
+      <workItem from="1613479701534" duration="1048000" />
+      <workItem from="1613484654327" duration="1337000" />
+      <workItem from="1613494911614" duration="238000" />
+      <workItem from="1613557588874" duration="432000" />
+      <workItem from="1613558062992" duration="194000" />
+      <workItem from="1613558656766" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="Saving to GitHub">
       <created>1612866088416</created>
@@ -109,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612978927493</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="saving">
+      <created>1612985722482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612985722482</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +189,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Saving to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saving to GitHub" />
+    <MESSAGE value="saving" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving" />
   </component>
 </project>

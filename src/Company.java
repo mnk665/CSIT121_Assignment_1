@@ -1,7 +1,7 @@
 import java.util.*;
 public class Company {
     private ArrayList<Employee>employees;
-    private double current_balance;
+    private static double current_balance;
 
     public Company()
     {
@@ -16,7 +16,7 @@ public class Company {
 
     //getters
     public ArrayList<Employee> getEmployees() {return employees;}
-    public double getCurrent_balance() {return current_balance;}
+    public static double getCurrent_balance() {return current_balance;}
 
     //setters
     public void setEmployees(ArrayList<Employee> employees) {this.employees = employees;}
