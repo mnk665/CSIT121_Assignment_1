@@ -1,4 +1,4 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Developer extends Employee{
     private static final int JuniorMax=2000;
@@ -16,9 +16,9 @@ public class Developer extends Employee{
      salary=0.0;
     }
 
-    Developer(String name, Date date_of_birth, int ID, Date date_hired, Gender gender, Type type, String role_title, double salary)
+    Developer(String name, Gender gender, LocalDate date_of_birth, int ID, LocalDate date_hired, double salary, Type type, String role_title)
     {
-        super(name,date_of_birth,ID,date_hired,gender);
+        super(name,gender,date_of_birth,ID,date_hired);
         this.type=type;
         this.role_title=role_title;
         this.salary=salary;
@@ -36,28 +36,45 @@ public class Developer extends Employee{
     public void setRole_title(String type) {this.role_title = role_title;}
     public void setSalary(double salary) {this.salary = salary;}
 
-    @Override
+
     public void payRaise()
     {
         switch (type)
         {
-            case senior: salary+=0.03*salary;
+            case senior:
+                            salary+=0.03*salary;
                                     break;
-            case junior: if(salary<=JuniorMax)
-                            salary+=0.03*salary;
+            case junior:
+                            if(salary<=JuniorMax)
+                             {
+                                 salary+=0.03*salary;
+                                 System.out.println("Pay raise have been provided to the employee.");
+                             }
+                         else
+                             {System.out.println("Salary has reached the limit for junior employees");}
                                 break;
-            case midlevel:if(salary<=MidMax)
-                            salary+=0.03*salary;
+            case midlevel:
+                            if(salary<=MidMax)
+                              {
+                                  salary+=0.03*salary;
+                                  System.out.println("Pay raise have been provided to the employee.");
+                              }
+                            else
+                              {System.out.println("Salary has reached the limit for senior employees");}
                             break;
 
         }
+    }
+
+    public double PayRollSalary(){
+        return salary;
     }
 
     @Override
     public String toString()
     {
         return(
-                "Developer"+" "+super.toString()+" "+salary+" "+String.valueOf(type)+" "+role_title
+                "Developer"+" "+super.toString()+" "+salary+" "+ type +" "+role_title
                 );
     }
 }

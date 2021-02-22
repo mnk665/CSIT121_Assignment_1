@@ -1,7 +1,7 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class CustomerSupport extends Employee {
-    private static double rate = 0.02; //2 percent
+    private static final double rate = 0.02; //2 percent
     private int hours_worked;
     private double wage;
 
@@ -11,8 +11,8 @@ public class CustomerSupport extends Employee {
         wage = 0.0;
     }
 
-    CustomerSupport(String name, Date date_of_birth, int ID, Date date_hired, Gender gender,int hours_worked, double wage) {
-        super(name,date_of_birth,ID,date_hired,gender);
+    CustomerSupport(String name, Gender gender, LocalDate date_of_birth, int ID, LocalDate date_hired, double wage, int hours_worked) {
+        super(name,gender,date_of_birth,ID,date_hired);
         this.hours_worked = hours_worked;
         this.wage = wage;
     }
@@ -39,13 +39,14 @@ public class CustomerSupport extends Employee {
         this.wage = wage;
     }
 
-    @Override
+
     public void payRaise() {
         wage += rate * wage;
+        System.out.println("Pay raise have been provided to the employee.");
     }
 
-    public double calculateSalary() {
-        double salary=0;
+    public double getSalary() {
+        double salary;
          if(hours_worked>48)
              salary=((48*wage)+((hours_worked-48)*(0.25*wage)));
          else
@@ -54,11 +55,16 @@ public class CustomerSupport extends Employee {
          return salary;
     }
 
+
+    public void reset(){
+        hours_worked=0;
+    }
+
     @Override
     public String toString()
     {
         return(
-                "Support"+" "+super.toString()+" "+wage+"  "+hours_worked
+                "Support"+" "+super.toString()+" "+wage+" "+hours_worked
                 );
     }
 

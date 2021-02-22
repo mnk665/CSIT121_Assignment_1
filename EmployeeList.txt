@@ -1,0 +1,4 @@
+Manager Nihal male 2002 07 15 11265 2021 02 20 20000.0 4000.0 12960.0
+Developer Hiba female 1987 05 06 25695 2020 09 21 600.0 junior back_end_developer
+Support Arthur male 1995 11 12 1899 2018 05 23 100.0 20
+Manager connor male 1969 02 05 1254 2021 06 05 10100.0 1000.0 2000.0
